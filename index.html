@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<header>Counter</header>
+<main class="container">
+    <section class="result">
+        <h1 class="calculation"></h1>
+    </section>
+    <section class="counters">
+        <div class="counter-container">
+            <div class="btn-container">
+                <button id="buttonCountPlus" class="counter-btn">+</button>
+                <button id="buttonCountMinus" class="counter-btn">-</button>
+            </div>
+            <hr>
+            <h1 class="number"></h1>
+            <div class="range">
+                <div class="range-values">
+                    <h2 class="min-value"></h2>
+                    <h2 class="max-value"></h2>
+                </div>
+                <input class="range-number" type="range" name="counter 0-9"
+                       min="-9" max="9" value="0" step="1">
+            </div>
+        </div>
+    </section>
+</main>
+<script type='module' src="./js/index.js"></script>
+</body>
+</html>

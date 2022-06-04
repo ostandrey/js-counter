@@ -1,0 +1,66 @@
+header {
+    font-size: 7vmax;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.result {
+    margin: 20px;
+    font-size: 7vmax;
+}
+
+.counter-container {
+    border-radius: 29px;
+    background: #8786d0;
+    box-shadow:  14px 14px 30px #7877b9,
+    -14px -14px 30px #9695e7;
+    padding: 25px;
+}
+
+.number {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.range {
+    margin: 10px 0;
+}
+
+.range-values {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.counter-btn {
+    border: none;
+    border-radius: 50px;
+    background: #672e7a;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3vmax;
+    cursor: pointer;
+}
